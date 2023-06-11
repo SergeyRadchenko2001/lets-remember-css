@@ -4,88 +4,120 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>html course</title>
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <table cellspacing="50">
-      <tr>
-        <td>
-          <img src="img1.jpg" alt="картинка" height="200" />
-        </td>
-        <td>
+    <div class="container">
+      <div class="info">
+        <div class="first-img">
+          <img class="avatar" src="img1.jpg" alt="картинка" height="200" />
+        </div>
+        <div class="info-second-child">
           <h1>Сергей Радченко</h1>
           <p>
-            <em>
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor,
-              <strong
-                >dolorum officia natus odio distinctio iusto dicta ut officiis
-                impedit harum molestiae in optio rem sint.</strong
-              >
-              Sit enim a assumenda deserunt.
-            </em>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor,
+            <strong
+              >dolorum officia natus odio distinctio iusto dicta ut officiis
+              impedit harum molestiae in optio rem sint.</strong
+            >
+            Sit enim a assumenda deserunt.
           </p>
           <p>
             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor,
             dolorum offici
           </p>
-        </td>
-      </tr>
-    </table>
-    <hr />
-    <h2>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quasi</h2>
-    <ul>
-      <li>
-        <a href="https://www.google.com/" target="_blank">google</a>
-      </li>
-      <li>ersjsertk</li>
-      <li>keterwtgsw</li>
-      <li>rtksrtghstr</li>
-      <li>strkkrtfjsrt</li>
-    </ul>
-    <hr />
-    <h2>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quasi</h2>
-    <ol>
-      <li>rtksrtkjsrtjk</li>
-      <li>rtsksrtksrk</li>
-      <li>rstksrtksrtk</li>
-      <li>rstksrar</li>
-      <li>er5ujsretk</li>
-    </ol>
-    <hr />
-    <h2>sdrfhljkwelrjhlj</h2>
-    <form action="/">
-      <label for="name">jlerhjljl</label>
-      <input type="text" id="name" placeholder="введите текст" />
-      <br />
-      <label for="number">jlerhjljl</label>
-      <input type="number" id="number" placeholder="введите текст" />
-      <br />
-      <label for="message">jlerhjljl</label>
-      <br />
-      <textarea id="message" cols="30" rows="5"></textarea>
-      <br />
-      <input type="submit" value="Связаться!" />
-    </form>
+          <h4>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quasi
+          </h4>
 
-    <hr />
-    <h2>JLDEGJSJLWSJL</h2>
-    <table>
-      <tr>
-        <th>jrlhjwerjlh</th>
-        <th>edrhjkerk</th>
-        <th>erhedrjer</th>
-      </tr>
-      <tr>
-        <td>ESGWSGW</td>
-        <td>rejejserj</td>
-        <td>tyltylty</td>
-      </tr>
-      <tr>
-        <td>ESGWSGW</td>
-        <td>rejejserj</td>
-        <td>tyltylty</td>
-      </tr>
-    </table>
-    <hr />
-    <h2><a href="second.html" target="_blank">second page</a></h2>
+          <a href="https://www.google.com/" target="_blank">Google</a>
+          |
+          <a href="https://www.google.com/" target="_blank">Google</a>
+        </div>
+      </div>
+
+      <div class="card bg-red">
+        <h2>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quasi</h2>
+        <ol class="list">
+          <li>rtksrtkjsrtjk</li>
+          <li>rtsksrtksrk</li>
+          <li>rstksrtksrtk</li>
+          <li>rstksrar</li>
+          <li>er5ujsretk</li>
+        </ol>
+      </div>
+
+      <div class="card bg-blue">
+        <h2>JLDEGJSJLWSJL</h2>
+        <table class="table">
+          <tr>
+            <td>ESGWSertsujeGW</td>
+            <td>rejejse65i5rj</td>
+            <td>tyltetkj6ylty</td>
+          </tr>
+          <tr>
+            <td>ESGWStyfjkfGW</td>
+            <td>reje45uljserj</td>
+            <td>tyltyldfgjty</td>
+          </tr>
+          <tr>
+            <td>ESGW5uSGW</td>
+            <td>rejejsulseserj</td>
+            <td>tyltershylty</td>
+          </tr>
+        </table>
+      </div>
+      <div class="card bg-yellow">
+        <h2 class="color-black">LJREHDJWSLJHLJW</h2>
+        <ul class="link-list">
+          <li>
+            <a
+              href="https://www.youtube.com/watch?v=DOEtVdkKwcU"
+              target="_blank"
+              >HTML для Начинающих - Практический Курс
+            </a>
+          </li>
+          <li>
+            <a
+              href="https://www.youtube.com/watch?v=SpCUuyZZTp8"
+              target="_blank"
+              >CSS для Начинающих - Практический Курс
+            </a>
+          </li>
+        </ul>
+      </div>
+      <div class="contact">
+        <h2>sdrfhljkwelrjhlj</h2>
+        <form action="/">
+          <div class="row">
+            <div class="form-group">
+              <label for="name">jlerhjljl</label>
+              <input type="text" id="name" placeholder="введите текст" />
+            </div>
+            <div class="form-group">
+              <label for="number">jlerhjljl</label>
+              <input type="number" id="number" placeholder="введите текст" />
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="message">jlerhjljl</label>
+
+            <textarea id="message" cols="30" rows="5"></textarea>
+          </div>
+          <input class="btn" type="submit" value="Связаться!" />
+        </form>
+      </div>
+      <hr />
+      <h2><a href="second.html" target="_blank">second page</a></h2>
+      <div class="position">
+        <div class="box"></div>
+      </div>
+      <div class="box-model">
+        <div></div>
+        <div><div></div></div>
+        <div></div>
+        <div></div>
+      </div>
+    </div>
   </body>
 </html>
